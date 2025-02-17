@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Metal</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/theme.js"></script>
+
+<body class="body">
+    <div id="fond">
+    </div>
+    <header>
+        <a href=" index.html"><img src="src/img/logo.png" alt="Logo" id="logo"></a>
+        <ul id="menu">
+            <li><a href="histoire.html">Histoire</a></li>
+            <li><a href="groupes.html">Groupes</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button id="theme-button" class="bouton">Thème</button></li>
+        </ul>
+        </header>
+        <main id="contact-form">
+            <h2>Contactez-nous</h2>
+            <form action="" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Téléphone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="utilise">Comptez-vous y revenir ?</label>
+                <select name="utilise" id="utilise">
+                    <option value="toujours">Toujours</option>
+                    <option value="parfois">Parfois</option>
+                    <option value="jamais">Jamais</option>
+                </select>
+
+                <input type="checkbox" name="utilisation" id="utilisation" class="inline" required />
+                <label for="utilisation" class="inline">J'accepte l'utilisation de mes informations personnelles à des
+                    fins
+                    de statistiques</label>
+                <br>
+                <input type="checkbox" name="conditions" id="conditions" class="inline" required />
+                <label for="conditions" class="inline">J'accepte les conditions d'utilisation du site</label>
+                <br>
+                <br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </main>
+</body>
+
+</html>

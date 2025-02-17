@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MetalFont';
-    src: url('/src/policeMetal.otf') format('truetype');
+    src: url('../policeMetal.otf') format('truetype');
 }
 
 /* General Styles */
@@ -64,7 +64,7 @@ ul:not(#home)>li {
 
 /* Background Image */
 #fond {
-    background: center/cover url('/src/img/fond.webp');
+    background: center/cover url('../img/fond.webp');
     position: fixed;
     top: 0;
     left: 0;
